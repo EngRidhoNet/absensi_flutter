@@ -17,7 +17,6 @@ enum AppTextStyle {
   BODY_MEDIUM,
   BODY_SMALL,    
 }
-
 class GlobalHelper {
   static TextStyle? getTextStyle(BuildContext context, {AppTextStyle appTextStyle = AppTextStyle.BODY_MEDIUM}) {
     final textTheme = Theme.of(context).textTheme;
